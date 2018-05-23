@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: firebird
@@ -11,6 +12,9 @@
     <title>成功</title>
 </head>
 <body>
+    <c:if test="${message} != null">
+        <h1>${message}</h1>
+    </c:if>
     恭喜您,操作成功.
 </body>
 </html>

@@ -1,42 +1,49 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/web/WEB-INF/lib" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/aopalliance-1.0.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/asm-3.3.1.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/aspectjweaver-1.6.11.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/cglib-2.2.2.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/commons-dbcp-1.2.2.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/commons-logging-1.1.1.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/commons-pool-1.3.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/javassist-3.17.1-GA.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/jstl-1.2.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/junit-4.9.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/log4j-1.2.17.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/log4j-api-2.0-rc1.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/log4j-core-2.0-rc1.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/mybatis-3.2.7.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/mybatis-spring-1.2.2.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/mysql-connector-java-5.1.7-bin.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/slf4j-api-1.7.5.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/slf4j-log4j12-1.7.5.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-aop-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-aspects-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-beans-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-context-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-context-support-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-core-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-expression-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-jdbc-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-orm-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-test-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-tx-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-web-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Desktop/repository/springmvc-mybatis/spring-webmvc-3.2.0.RELEASE.jar!/" />
-      <root url="jar://$USER_HOME$/Tomcat/lib/servlet-api.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/aopalliance-1.0.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/asm-3.3.1.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/aspectjweaver-1.6.11.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/cglib-2.2.2.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/commons-dbcp-1.2.2.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/commons-logging-1.1.1.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/commons-pool-1.3.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/javassist-3.17.1-GA.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/jstl-1.2.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/junit-4.9.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/log4j-1.2.17.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/log4j-api-2.0-rc1.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/log4j-core-2.0-rc1.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/mybatis-3.2.7.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/mybatis-spring-1.2.2.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/slf4j-api-1.7.5.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/slf4j-log4j12-1.7.5.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-aop-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-aspects-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-beans-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-context-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-context-support-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-core-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-expression-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-jdbc-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-orm-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-test-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-tx-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-web-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/springmvc-mybatis/spring-webmvc-3.2.0.RELEASE.jar!/" />
+      <root url="jar://E:/repository_local/mysql/mysql-connector-java/5.1.39/mysql-connector-java-5.1.39.jar!/" />
+      <root url="jar://E:/repository_local/hibernate-validator/hibernate-validator-4.3.0.Final.jar!/" />
+      <root url="jar://E:/repository_local/hibernate-validator/jboss-logging-3.1.0.CR2.jar!/" />
+      <root url="jar://E:/repository_local/hibernate-validator/validation-api-1.0.0.GA.jar!/" />
+      <root url="jar://E:/Tomcat 6.0/lib/servlet-api.jar!/" />
+      <root url="jar://E:/repository_local/uploadFile/commons-fileupload-1.2.2.jar!/" />
+      <root url="jar://E:/repository_local/uploadFile/commons-io-2.4.jar!/" />
+      <root url="jar://E:/repository_local/springmvc_json/jackson-core-asl-1.9.11.jar!/" />
+      <root url="jar://E:/repository_local/springmvc_json/jackson-mapper-asl-1.9.11.jar!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
-    <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib" recursive="false" />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/spring-context-3.2.0.RELEASE-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

@@ -1,5 +1,6 @@
 package com.firebird.ssm.service.impl;
 
+import com.firebird.ssm.controller.exception.CustomException;
 import com.firebird.ssm.mapper.ItemsMapper;
 import com.firebird.ssm.mapper.ItemsMapperCustom;
 import com.firebird.ssm.po.Items;
@@ -31,8 +32,14 @@ public class ItemsServiceImpl implements ItemsService {
     @Override
     public ItemsCustom findItemsById(Integer id) throws Exception {
         Items items = itemsMapper.selectByPrimaryKey(id);
-        ItemsCustom itemsCustom = new ItemsCustom();
-        BeanUtils.copyProperties(items, itemsCustom);
+        if(items == null){
+            throw new CustomException("商品信息不存在.");
+        }
+        ItemsCustom itemsCustom = null;
+        if (items != null) {
+            itemsCustom = new ItemsCustom();
+            BeanUtils.copyProperties(items, itemsCustom);
+        }
         return itemsCustom;
     }
 
@@ -40,5 +47,10 @@ public class ItemsServiceImpl implements ItemsService {
     public void updateItems(Integer id, ItemsCustom itemsCustom) throws Exception {
         itemsCustom.setId(id);
         itemsMapper.updateByPrimaryKeyWithBLOBs(itemsCustom);
+    }
+
+    @Override
+    public void deleteItems(Integer[] itemsId) throws Exception {
+
     }
 }
